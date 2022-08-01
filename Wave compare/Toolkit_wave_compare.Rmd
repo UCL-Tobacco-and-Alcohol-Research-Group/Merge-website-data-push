@@ -1,0 +1,58 @@
+---
+title: "Toolkit latest and previous raw wave comparison"
+output:
+  html_document: default
+    df_print: paged
+---
+
+Uses comparedf from arsenal package - https://cran.r-project.org/web/packages/arsenal/vignettes/comparedf.html#example-1 
+
+Execute this chunk by clicking the *Run* arrow button within the chunk or by placing your cursor inside it/highlighting relevant code and pressing *Ctrl+Shift+Enter*.
+
+Remember to update the file path for the 'previous' and 'latest' wave data before running code chunk.
+
+OUTPUT UNDER CODE CHUNK
+Box 1 = Summary of data frames (number of cases and variables)
+Box 3 = Summary of comparison (Number of variables that are not in each dataset)
+Box 4 = Variables not shared and which wave they are present in (x = latest, y = previous)
+Box 9 = Non-identical attributes (indicates if variables have differences and what the difference is (e.g. label, class etc...))
+
+```{r}
+library(haven)
+library(arsenal)
+
+# Read in data
+
+previous <- read_sav("C:/Toolkit merge files/Waves/187/21-087517-18 ST TA Wave 187 SPSS_v1_internal.sav")
+latest <- read_sav("C:/Toolkit merge files/Waves/188/21-087517-22 ST TA Wave 188 SPSS_v1_internal.sav")
+
+# 12 month re-contact
+recontact_prev <- read_sav("C:/Toolkit merge files/Waves/187/Recontact/20-087517-18 ST TA Wave 92 SPSS-v1_internal.sav")
+recontact_lat <- read_sav("C:/Toolkit merge files/Waves/188/Recontact/20-087517-22 ST TA Wave 93 SPSS-v1_internal.sav")
+
+# At bottom of output see "Table: Non-identical attributes". Indicates if variables have differences.
+# Name column indicates what the difference is (i.e. label, levels or class)
+print(summary(comparedf(previous, latest)))
+
+print(summary(comparedf(sts_t, sts_f)))
+```
+
+
+```{r}
+# Recontact
+print(summary(comparedf(recontact_prev, recontact_lat)))
+```
+
+
+Assess variable attributes
+```{r}
+
+attributes(latest$q632a45) # Pouch
+attributes(latest$q632e24)
+attributes(latest$neww53a_o)
+attributes(latest$qimw8613)
+
+attributes(latest$qaap1lp_10)
+
+```
+
