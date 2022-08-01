@@ -1,0 +1,56 @@
+---
+title: "Latest trends on alcohol consumption in Wales from the Alcohol Toolkit Study"
+author: "Jamie Brown, Loren Kock"
+date: "21/07/2022"
+output:
+  powerpoint_presentation: 
+    reference_doc: ppt_ref_ats.pptx
+  beamer_presentation: 
+    colortheme: "seahorse"
+---
+
+# Prevalence of increasing and higher risk drinking (AUDIT)
+
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\audit_wal.png)
+
+# Prevalence of increasing and higher risk drinking (AUDIT-C)
+
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\auditc_wal.png)
+
+# Currently trying to restrict consumption
+
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\restrict_cons_wal.png)
+
+# Motivation to cut down
+
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\motiv_wal.png)
+
+# GP advice to cut down
+
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\gp_wal.png)
+
+# All past-year attempts to cut down or stop
+
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\all_pyattempts_wal.png)
+
+# Serious past-year attempts to cut down or stop
+
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\serious_pyattempts_wal.png)
+
+# Support in past-year attempts
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\support_pyattempts_wal.png)
+
+# Triggers for past-year attempts
+![](C:\Toolkit merge files\R Script\Slides\Wales\Alcohol\triggers_pyattempts_wal.png)
+
+# Methods
+
+- Data collected during monthly household survey
+
+- Each month involves a new representative sample of 250-300 adults (18 and over)
+
+  - Due to pandemic, surveys are conducted by telephone (rather than face-to-face) and among adults aged 18 and over between April 2020-December 2021.
+
+- Kock, et al., 2021. Protocol for expansion of an existing national monthly survey of smoking behaviour and alcohol use in England to Scotland and Wales: The Smoking and Alcohol Toolkit Study. Wellcome Open Research. 6:67
+
+- More information (and access to the data underlying each chart) will be available online soon.
