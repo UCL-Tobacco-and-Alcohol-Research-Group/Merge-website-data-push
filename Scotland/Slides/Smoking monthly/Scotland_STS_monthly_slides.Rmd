@@ -1,0 +1,54 @@
+---
+title: "Monthly trends on smoking in Scotland from the Smoking Toolkit Study"
+author: "Robert West, Loren Kock, Dimitra Kale, Jamie Brown"
+date: "21/7/2022"
+output:
+  powerpoint_presentation: 
+    reference_doc: ppt_ref.pptx
+  beamer_presentation: 
+    colortheme: "seahorse"
+---
+
+# Prevalence of cigarette smoking by social grade
+
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\cigsmok_scot.png)
+
+# Prevalence of cigarette smoking by age
+
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\cigsmok_scot_age.png)
+
+# Prevalence of cigarette smoking by sex
+
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\cigsmok_scot_sex.png)
+
+# Attempts to stop by social grade
+
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\quit_attempt_scot.png)
+
+# Support used in quit attempts
+
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\support_scot.png)
+
+# GP-triggered quit attempts
+
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\gp_scot.png)
+
+# Motivation to quit
+
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\motiv_scot.png)
+
+# Harm reduction
+![](C:\Toolkit merge files\R Script\Slides\Scotland\Monthly\harm_reduction_scot.png)
+
+# Methods
+
+- Data collected during monthly household survey
+
+- Each month involves a new representative sample of 400-450 adults (18 and over)
+
+  - From April 2020-December 2021, surveys were conducted by telephone and among adults aged 18. From January 2022 surveys included adults aged 16+.
+
+- Kock, et al., 2021. Protocol for expansion of an existing national monthly survey of smoking behaviour and alcohol use in England to Scotland and Wales: The Smoking and Alcohol Toolkit Study. Wellcome Open Research. 6:67
+
+- For more information (including the data underlying each graph) visit www.smokinginscotland.info
+
