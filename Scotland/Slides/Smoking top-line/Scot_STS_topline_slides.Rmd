@@ -1,0 +1,44 @@
+---
+title: "Top-line findings on smoking in Scotland from the Smoking Toolkit Study"
+author: "Robert West, Loren Kock, Dimitra Kale, Jamie Brown"
+date: "21/7/2022"
+output:
+  powerpoint_presentation: 
+    reference_doc: ppt_ref.pptx
+  beamer_presentation: 
+    colortheme: "seahorse"
+---
+
+# Cigarette smoking prevalence
+
+![Graph shows prevalence estimate and upper and lower 95% confidence intervals](C:\Toolkit merge files\R Script\Slides\Scotland\Top line\cigsmok_scot.png)
+
+# Cigarette smoking prevalence 18-21 year olds
+
+![Graph shows prevalence estimate and upper and lower 95% confidence intervals](C:\Toolkit merge files\R Script\Slides\Scotland\Top line\cigsmok1821_scot.png)
+
+# Stopped smoking in past 12 months
+
+![Graph shows prevalence estimate and upper and lower 95% confidence intervals](C:\Toolkit merge files\R Script\Slides\Scotland\Top line\stopped_scot.png)
+
+# Tried to stop smoking in past year
+![Graph shows prevalence estimate and upper and lower 95% confidence intervals](C:\Toolkit merge files\R Script\Slides\Scotland\Top line\triedstop_scot.png)
+
+# Success rate in stopping in those who tried
+![Graph shows prevalence estimate and upper and lower 95% confidence intervals](C:\Toolkit merge files\R Script\Slides\Scotland\Top line\successstop_scot.png)
+
+# Uptake: prevalence of ever smoking in those aged 18-24
+![Graph shows prevalence estimate and upper and lower 95% confidence intervals](C:\Toolkit merge files\R Script\Slides\Scotland\Top line\uptake1824_scot.png)
+
+# Methods
+
+- Monthly household surveys of representative samples of 450 adults (16+ years old in Scotland)
+
+  - Due to pandemic, surveys are conducted by telephone (rather than face-to-face) and among adults aged 18 and over between April 2020-December 2021.
+
+- Fieldwork by IPSOS MORI
+
+- Sample weighted to match population in Scotland on key socio-demographics
+
+- For more information (including data underlying each graph) visit www.smokinginscotland.info
+
